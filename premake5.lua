@@ -19,6 +19,10 @@ project "Glad"
 		"src/glad.c"
 	}
 
+	includedirs {
+		"include"
+	}
+
 	filter "configurations:Debug"
 		runtime "Debug"
 		symbols "on"
